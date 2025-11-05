@@ -49,7 +49,7 @@ cat ~/.ssh/github_deploy
 
 ---
 
-## Workflow hoạt động
+## Workflow hoạt động 
 
 1. **Push code** từ local → GitHub (dùng `ocean-sync.bat`)
 2. **GitHub Actions** tự động trigger
