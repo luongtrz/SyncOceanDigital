@@ -8,3 +8,4 @@ __pycache__
 .env.local
 copilot_instruction.md
 ocean-sync.bat
+scripts/
