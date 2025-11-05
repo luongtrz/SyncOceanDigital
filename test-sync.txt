@@ -1,2 +1,0 @@
-Test commit message format
-Updated for GitHub Actions auto-deploy workflow
