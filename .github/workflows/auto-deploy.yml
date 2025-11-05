@@ -18,13 +18,13 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           port: ${{ secrets.SERVER_PORT || 22 }}
           script: |
-            echo "🚀 Starting deployment..."
+            echo "Starting deployment..."
             cd ${{ secrets.SERVER_REPO_PATH }}
             
-            echo "📥 Pulling latest code from GitHub..."
+            echo "Pulling latest code from GitHub..."
             git fetch origin main
             git reset --hard origin/main
             
-            echo "✅ Deployment completed!"
-            echo "📊 Current commit:"
+            echo "Deployment completed!"
+            echo "Current commit:"
             git log -1 --pretty=format:"%h - %s (%ci)" --abbrev-commit

@@ -1,6 +1,6 @@
 # GitHub Actions - Auto Deploy Setup
 
-## 📋 Cấu hình GitHub Secrets
+## Cấu hình GitHub Secrets
 
 Vào repository trên GitHub → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
@@ -32,7 +32,7 @@ Copy toàn bộ nội dung (bao gồm `-----BEGIN ... KEY-----` và `-----END ..
 
 ---
 
-## 🔑 Tạo SSH Key cho GitHub Actions (nếu chưa có)
+## Tạo SSH Key cho GitHub Actions (nếu chưa có)
 
 **Trên server LuongOceanDigital:**
 
@@ -49,7 +49,7 @@ cat ~/.ssh/github_deploy
 
 ---
 
-## 🚀 Workflow hoạt động
+## Workflow hoạt động
 
 1. **Push code** từ local → GitHub (dùng `ocean-sync.bat`)
 2. **GitHub Actions** tự động trigger
@@ -59,7 +59,7 @@ cat ~/.ssh/github_deploy
 
 ---
 
-## 🧪 Test Deployment
+## Test Deployment
 
 Sau khi setup xong secrets, chạy:
 
@@ -71,7 +71,7 @@ Vào GitHub → **Actions** tab → Xem workflow chạy
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Server cần có **git** đã cài đặt
 - Server cần đã **clone repo** về folder `SERVER_REPO_PATH`
